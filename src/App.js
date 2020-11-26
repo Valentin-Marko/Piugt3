@@ -1,12 +1,12 @@
 import "./App.css";
-import React from "react";
+import React, { useState } from "react";
 import Nav from "./Nav";
 import Sea from "./Sea";
 import Mountain from "./Mountain";
 import Home from "./Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div className="App">
@@ -20,6 +20,6 @@ function App() {
       </div>
     </Router>
   );
-}
+};
 
 export default App;
